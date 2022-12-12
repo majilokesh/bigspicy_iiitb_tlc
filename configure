@@ -1,0 +1,12 @@
+./bigspicy.py \
+--import \
+--spef example_inputs/iiitb_tlc/iiitb_tlc.spef \
+--spice lib/sky130_fd_sc_hd.spice \
+--verilog example_inputs/iiitb_tlc/iiitb_tlc.v \
+--spice_header lib/sky130_fd_pr__pfet_01v8.pm3.spice \
+--spice_header lib/sky130_fd_pr__nfet_01v8.pm3.spice \
+--spice_header lib/sky130_ef_sc_hd__decap_12.spice \
+--spice_header lib/sky130_fd_pr__pfet_01v8_hvt.pm3.spice \
+--top iiitb_tlc \
+--save final.pb \
+--working_dir /tmp/bigspicy
