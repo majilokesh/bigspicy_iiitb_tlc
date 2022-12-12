@@ -1,0 +1,14 @@
+** Translated using xdm 2.5.0 on Dec_09_2022_15_51_06_PM
+** from /tmp/_MEIstJQ0K/hspice.xml
+** to /tmp/_MEIstJQ0K/xyce.xml
+
+
+
+.OPTIONS DEVICE TEMP=25 TNOM=25  ; converted options using xdm
+** NGSPICE file created from sky130_ef_sc_hd__decap_12.ext - technology: sky130A
+.SUBCKT sky130_ef_sc_hd__decap_12 VGND VPWR VNB VPB
+X0 VPWR VGND VPWR VPB sky130_fd_pr__pfet_01v8_hvt 
++ PARAMS: AD=4.524e+11p PD=4.52e+06u AS=0p PS=0u W=870000u L=4.73e+06u
+X1 VGND VPWR VGND VNB sky130_fd_pr__nfet_01v8 
++ PARAMS: AD=2.86e+11p PD=3.24e+06u AS=0p PS=0u W=550000u L=4.73e+06u
+.ENDS
